@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keyword" content="muebles,cocina,oficina,diseños,hogar" />
+    <meta
+      name="description"
+      content="tienda muebles s.a es una compañia destinada a brindar los mejores servicios de muebles y cocina a nivel nacional he internacional"
+    />
+    <meta name=" author" content="Moises la cruz"/>
+    <meta name="copyright" content="tienda-muebles.incorporation" />
+    <title>contacto</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo-principal">tienda de <span>muebles</span></h1>
+    </header>
+
+    <nav class="nav-navegacion">
+      <a href="inicio.html">inicio</a>
+      <a href="nosotros.html">nosotros</a>
+      <a href="tienda.html">tienda</a>
+      <a href="blog.html">blog</a>
+      <a href="galeria.html">galeria</a>
+      <a href="contacto.html">contacto</a>
+    </nav>
+    <!-- contacto -->
+    <main>
+      <h2 class="subtitulo">contacto</h2>
+      
+      <form class="formulario">
+        <fieldset>
+          <legend>tus datos</legend>
+          
+          <div class="campo">
+            <label for="nombre">nombre</label>
+            <input id="nombre" type="text" placeholder="tu nombre" required>
+          </div>
+
+          <div class="campo">
+            <label for="apellido">apellido</label>
+            <input id="apellido" type="text" placeholder="tu apellido" required>
+          </div>
+
+          <div class="campo">
+            <label for="email">email</label>
+            <input id="email" type="email" placeholder="tu email" required>
+          </div>
+
+          <div class="campo">
+            <label for="telefono">telefono</label>
+            <input id="telefono" type="tel" placeholder="tu telefono" required>
+          </div>
+
+          <div class="campo">
+            <label for="date">datos</label>
+            <input id="date" type="datetime-local"required>
+          </div>
+
+          <div class="campo">
+            <label for="mensaje">mensaje</label>
+            <textarea required name="" id="" cols="30" rows="10"></textarea>
+          </div>
+
+        </fieldset>
+
+        <fieldset>
+          <legend> país</legend>
+          
+          <div class="campo">
+           <label for="pais">país</label>
+           <select required name="pais" id="pais">
+            <option value="" selected>--seleccione un pais--</option>
+            <option value="">venezuela</option>
+            <option value="">españa</option>
+            <option value="">Republica Dominicana</option>
+            <option value="">ecuador</option>
+            <option value="">peru</option>
+            <option value="">afganistan</option>
+            <option value="">argentina</option>
+            <option value="">mexico</option>
+            <option value="">chile</option>
+            <option value="">australia</option>
+            <option value="">china</option>
+            <option value="">servia</option>
+            <option value="">brasil</option>
+            <option value="">costa rica</option>
+            <option value="">guatemala</option>
+            <option value="">francia</option>
+            <option value="">india</option>
+            <option value="">nicaragua</option>            
+           </select>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>informacion extra</legend>
+          
+          <div class="campo">
+            <label for="cliente">cliente</label>
+            <input required type="radio" name="tipo">
+          </div>
+
+          <div class="campo">
+            <label for="proveedor">proveedor</label>
+            <input required type="radio" name="tipo">
+          </div>
+           
+          <div class="campo">
+            <label for="categorias">categorias de interes</label>
+            <input required list="categorias" type="text">
+             <datalist id="categorias">
+              <option value="cocina"></option>
+              <option value="oficina"></option>
+              <option value="pintura"></option>
+              <option value="diseños"></option>
+            </datalist>
+          </div>
+          
+        </fieldset>
+
+        <input class="btn" type="submit" value="enviar formulario">
+
+      </form>
+    </main>
+   
+
+    <footer class="site-footer">
+      <div class="footer">
+        <div>
+          <h3>categorias</h3>
+
+          <nav>
+            <a href="">cocina</a>
+            <a href="">oficina</a>
+            <a href="">jardin</a>
+            <a href="">cochera</a>
+            <a href="">dormitorios</a>
+          </nav>
+        </div>
+
+        <div>
+          <h3>sobre nosotros</h3>
+
+          <nav>
+            <a href="">nuestra historia</a>
+            <a href="">mision vision y valores</a>
+            <a href="">carreras</a>
+            <a href="">politica de privacidad</a>
+            <a href="">terminos del servicio</a>
+          </nav>
+        </div>
+
+        <div>
+          <h3>soporte</h3>
+
+          <nav>
+            <a href="">preguntas</a>
+            <a href="">ayuda en linea</a>
+            <a href="">confianza y seguridad</a>
+          </nav>
+        </div>
+      </div>
+      <p class="copyright">todos los derechos reservados por tiendademuebles ©</p>
+    </footer>
+  </body>
+</html>
